@@ -1,61 +1,87 @@
-<h1> where is my car <h1>
- <h3> 1.프로젝트 개요<h3><br>
- <h5><br>프로젝트 주제:주차된 차 편리하게 찾기 & 물피도주에 빠른 대처법<br>
- <br>개발동기:기사에서 렌터카 업체에서 도난 방지로 달아놓은 위치추적기를 분리해서<br>
-렌터카를 도난당한 사례와 주차된 차량을 파손하고 도주하는 물피도주 사례가 증가하고 있다는 기사를 읽었다.<br>
-  그래서 이를 예방하고 해결할 수 있는 개발상품을 만들고 싶었다.<h5><br>
-  <h3><br>수행목표<h3>
-  <h5>1.주차된 차량을 휴대전화를 사용하여 편리하게 찾는다.<br>
-  2.차가 시야에 보이지 않아도 내 위치와 차량 위치로 차의 위치를 쉽게 찾을 수 있다.<br>
-  3.차 주변을 360도로 촬영하여 사각지대에서 발생하는 차량 관련 범죄를 예방한다.<br>
-  4.차가 손상되었을 때 즉시 알 수 있게 하여 빠르게 대처한다.<br><h5>
-  
-  <h3>2.팀소개<h3><br>
-  <h5>권다영(팀장)-아두이노 제작<br>
-  김도은(팀원)-자료조사,실물제작<br>
-  이영선(팀장)-발표자료제작<br>
-  이수빈(팀원)-앱 개발<br><h5>
-  
-  <h3>3.사용기술<h3><br>
-<h5>  - 개발에 사용한 기술
-: C언어, 코듈러<br>
-- 개발에 소요된 물품 및 준비물 
-: 아두이노, 카메라 모듈, GPS 모듈, 충격 센서, 부저, RGB LED<br><h5>
-  
- <h5> 4.프로젝트 상세소개<br>
-  레이아웃 세부 설명<br>
- - 메인화면<br>
- - 차량 위치 확인<br>
- - 지도<br>
- - 차량 손상 알림<br>
+<h1> where is my car </h1>
+    <p style="border-left:6px solid skyblue; font-size:25px; font-weight: bold; padding: 0.1em; border-bottom: 1px solid skyblue; ">1.프로젝트 개요</p>
 
-데이터베이스/데이터플로우/시스템구조<br>
+    <h3>프로젝트 주제:주차된 차 편리하게 찾기 & 물피도주에 빠른 대처법</h3>
+    <h4 style="font-weight:lighter; font-size: 15px;">
+<ul>
+    <li>개발동기:기사에서 렌터카 업체에서 도난 방지로 달아놓은 위치추적기를 분리해서<br>
+    렌터카를 도난당한 사례와 주차된 차량을 파손하고 도주하는 물피도주 사례가 증가하고 있다는 기사를 읽었다.<br>
+     그래서 이를 예방하고 해결할 수 있는 개발상품을 만들고 싶었다.</li>
+</ul>
+<h4>
 
-세부 수행 과정<br>
-- 차량 위치 확인<br>
-사용자가 '메인화면 - 차량위치확인' 으로 들어가면 차량에 설치된 GPS모듈이 차량의 위치를 
-지도화면에 띄워주고 휴대전화 위치 기능을 사용하여 사용자의 위치도 지도에서 볼 수 있다.<br>
+     <h3>수행목표</h3>
 
-사용자가 차량 쪽으로 가면 지도화면 하단에 차량까지 남은 거리를 볼 수 있어서
-보다 편리하게 주차된 차량을 찾을 수 있다.<br>
+     <h4 style="font-weight:lighter; font-size: 15px;">
+        <ol>
+    <li>주차된 차량을 휴대전화를 사용하여 편리하게 찾는다.</li>
+    <li>차가 시야에 보이지 않아도 내 위치와 차량 위치로 차의 위치를 쉽게 찾을 수 있다.</li>
+    <li>차 주변을 360도로 촬영하여 사각지대에서 발생하는 차량 관련 범죄를 예방한다.</li>
+    <li>차가 손상되었을 때 즉시 알 수 있게 하여 빠르게 대처한다.</li>
+        </ol>
+    </h4>
+        <p style="border-left:6px solid skyblue; font-size:25px; font-weight: bold; padding: 0.1em; border-bottom: 1px solid skyblue; ">2.팀 소개</p>
+        
+        <h4 style="font-weight:lighter; font-size: 15px;">
+        <ul>
+    <li>권다영(팀장): 아두이노 제작</li>
+    <li>김도은(팀원): 자료조사,실물제작</li>
+    <li>이영선(팀장): 발표자료제작</li>
+    <li> 이수빈(팀원): 앱 개발</li>
+    </ul>
+    </h4>
 
-- 차량 손상 알림
-사용자의 주차된 차량을 어떤 것에 의해 충격이 가해지면 자동차에 부착된 충격 감지센서가 
-이를 감지하여 사용자의 휴대전화로차량에 충격이 가해졌음을 알린다. 
+    <p style="border-left:6px solid skyblue; font-size:25px; font-weight: bold; padding: 0.1em; border-bottom: 1px solid skyblue; ">3.사용 기술</p>
+    
+    <h4 style="font-weight:lighter; font-size: 15px;">
+    <ul>
+    <li>개발에 사용한 기술 : C언어, 코듈러</li>
+    <li>개발에 소요된 물품 및 준비물 : 아두이노, 카메라 모듈, GPS 모듈, 충격 센서, 부저, RGB LED</li>
+</ul>
+</h4>
 
-차량 윗부분에 카메라모듈을 설치하여 차량의 상태를 확인하고 싶을 때는
-실시간으로 차량의 상태를 확인할 수 있다.
-  
-  <h5>
+<p style="border-left:6px solid skyblue; font-size:25px; font-weight: bold; padding: 0.1em; border-bottom: 1px solid skyblue; ">4.프로젝트 상시소개</p>
 
-  
-<h5>  5.사용자 수행 흐름도(데이터베이스 구조도)<h5>
-  
- <h5> 6. 프로젝트 추진 결과<h5>
-  
-<h5>  7. 결과 및 발표 자료
-  깃허브 저장소 주소
+<h4 style="font-weight:lighter; font-size: 15px;"></h4>
+        <ul>
+    <h3 style="font-size: 16px;">레이아웃 세부 설명</h3>
+    <li>메인화면<br>
+    <li>차량 위치 확인</li>
+    <li>지도</li>
+    <li>차량 손상 알림</li>
+    </ul>
+    </h4>
 
-  실행 주소(웹)
-<h5>
+   <h3 style="font-size: 16px;">데이터베이스/데이터플로우/시스템구조</h3>
 
+   <h4 style="font-weight:lighter; font-size: 15px;">
+<ul>
+   <p style="line-height:1px;"><li style="font-size: 17px; font-weight: bold;">세부 수행 과정</li><p>
+   - 차량 위치 확인<br>
+   사용자가 '메인화면 - 차량위치확인' 으로 들어가면 차량에 설치된 GPS모듈이 차량의 위치를 
+   지도화면에 띄워주고 휴대전화 위치 기능을 사용하여 사용자의 위치도 지도에서 볼 수 있다.<br><br>
+   사용자가 차량 쪽으로 가면 지도화면 하단에 차량까지 남은 거리를 볼 수 있어서
+   보다 편리하게 주차된 차량을 찾을 수 있다.<br>
+   
+  <br> -차량 손상 알림<br>
+   사용자의 주차된 차량을 어떤 것에 의해 충격이 가해지면 자동차에 부착된 충격 감지센서가 
+   이를 감지하여 사용자의 휴대전화로차량에 충격이 가해졌음을 알린다. <br>
+   
+   차량 윗부분에 카메라모듈을 설치하여 차량의 상태를 확인하고 싶을 때는
+   실시간으로 차량의 상태를 확인할 수 있다.</li>
+     </ul>
+    </h4>
+     <h5>
+   
+    <p style="border-left:6px solid skyblue; font-size:25px; font-weight: bold; padding: 0.1em; border-bottom: 1px solid skyblue; ">5.사용자 수행 흐름도(데이터베이스 구조도)</p>
+     
+    <p style="border-left:6px solid skyblue; font-size:25px; font-weight: bold; padding: 0.1em; border-bottom: 1px solid skyblue; ">6.프로젝트 추진결과</p>
+
+    <p style="border-left:6px solid skyblue; font-size:25px; font-weight: bold; padding: 0.1em; border-bottom: 1px solid skyblue; ">7. 결과 및 발표 자료</p>
+
+     
+   <h5> 
+     깃허브 저장소 주소
+   
+     실행 주소(웹)
+   <h5>
